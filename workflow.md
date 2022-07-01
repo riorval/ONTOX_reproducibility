@@ -5,11 +5,11 @@ flowchart TD
   Dataset[(Dataset)]-->Test
   
   
-  Train --> model
-  model --> validation
+  Train --> model((model))
+  model((model)) --> validation
   Test --> validation
   
-  NewData[(NewData)] --> model
-  model --> predictions
+  NewData[(NewData)] --> model((model))
+  model((model)) --> predictions
   
 ```
